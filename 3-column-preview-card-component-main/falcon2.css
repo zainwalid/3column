@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+.attribution {
+    color: black;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  body{
+      background-color: #ddd;
+      font-family: 'Inter', sans-serif;
+      font-family: 'Lexend Deca', sans-serif;
+      color: white;
+  }
+  .all{
+      padding: 0;
+      margin: 0;
+     
+  }
+.main{
+    margin: 80px 270px;
+    width: 1000px;
+    height: 500px;
+    
+    border: 1px solid transparent;
+    border-radius: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    background-color:#eee
+    ;
+}
+.sedan{
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; ;
+    border:1px solid hsl(31, 77%, 52%);
+    background-color:hsl(31, 77%, 52%);
+}
+  p{
+   position: relative
+   ;
+   top: 120px;
+   left: 40px;
+    justify-self: flex-start;
+    
+   opacity: 0.7
+   ;
+    color: white;
+    margin: 0;
+    padding: 0 0 0 0;
+    
+}
+h3{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+    
+    position: relative;
+    top: 80px;
+    left: 40px;
+}
+  img{
+     position: relative;
+     left: 40px;
+     top: 40px;
+
+}
+button{
+    position: absolute
+    ;
+    top: 500px;
+    left: 350px;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: 3px solid white;
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+    transition-duration: 1s;
+
+}
+button:hover{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: 2px solid white;
+} 
+.suv{
+    background-color: hsl(184, 100%, 22%);
+}
+.suvb{
+   
+    position: absolute;
+    top: 500px;
+    left: 670px;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid white;
+    color: hsl(184, 100%, 22%);;
+    font-family: 'Lexend Deca', sans-serif;
+    transition-duration: 1s;
+}
+.lux{
+    position: absolute;
+    top: 500px;
+    left: 1020px;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid white;
+    color: hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca', sans-serif;
+    transition-duration: 1s;  
+
+}
+.luxury{
+background-color:hsl(179, 100%, 13%); 
+border-top-right-radius:10px ;
+border-bottom-right-radius: 10px;;
+}
